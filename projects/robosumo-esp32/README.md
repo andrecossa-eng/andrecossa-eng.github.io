@@ -27,6 +27,17 @@ Construir um robô sumô com:
 
 ---
 
+## 📐 Desenhos técnicos
+<img width="1255" height="878" alt="image" src="https://github.com/user-attachments/assets/f3082b6c-9ab9-4f79-a685-ecdb7eea465a" />
+<img width="1255" height="886" alt="image" src="https://github.com/user-attachments/assets/a16ed5b9-88b9-467d-ab54-355e8d38b71b" />
+<img width="1257" height="876" alt="image" src="https://github.com/user-attachments/assets/3f731633-7829-46ac-94b7-b3b759e4dc85" />
+<img width="1248" height="884" alt="image" src="https://github.com/user-attachments/assets/67d9b2f7-d9c2-4e23-82ee-adb404c047a6" />
+<img width="1252" height="883" alt="image" src="https://github.com/user-attachments/assets/747b7482-72d3-412d-a841-87652d26deeb" />
+<img width="1249" height="888" alt="image" src="https://github.com/user-attachments/assets/b26fd955-7390-40cb-b257-0ad4a3bd08f0" />
+<img width="1255" height="886" alt="image" src="https://github.com/user-attachments/assets/66d43678-11bb-48aa-918d-684b8af4a58d" />
+<img width="1254" height="883" alt="image" src="https://github.com/user-attachments/assets/6027daf1-a502-4311-9900-b3eba709327e" />
+
+
 ## 💻 Código base (movimentação)
 
 ```cpp
@@ -159,13 +170,4 @@ digitalWrite(A_RPWM, LOW);
 digitalWrite(A_LPWM, LOW);
 digitalWrite(B_RPWM, LOW);
 digitalWrite(B_LPWM, LOW);
-]
-
-
-💥 Resultados
-
-Robô rápido, forte e responsivo
-
-Comunicação Bluetooth fluida
-
-Estrutura para competições
+}
