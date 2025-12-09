@@ -1,6 +1,7 @@
 # 🤖 Robô Sumô – ESP32 + BTS7960
 
-![Robot Sumo](https://upload.wikimedia.org/wikipedia/commons/3/3d/Robot_sumo.jpg)
+<img width="795" height="562" alt="image" src="https://github.com/user-attachments/assets/1314b640-ad28-4648-a65f-a59f920bc5d5" />
+
 
 ## 🎯 Objetivo  
 Construir um robô sumô com:  
