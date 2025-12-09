@@ -1,7 +1,5 @@
 # 🟦 Projeto: CLP Siemens – Lógica Ladder & TIA Portal
 
-![Siemens S7-1200](https://upload.wikimedia.org/wikipedia/commons/1/19/Siemens_S7-1200_PLC.jpg)
-
 ## 🎯 Objetivo  
 Desenvolver programas em **TIA Portal** para o CLP Siemens S7-1200 utilizando **linguagem Ladder (LD)**, incluindo:  
 - Controle de motores  
@@ -20,9 +18,5 @@ Desenvolver programas em **TIA Portal** para o CLP Siemens S7-1200 utilizando **
 - S7-1200 (1212C / 1214C)  
 - Sensores NPN/PNP  
 - Contatores/contactores  
-- Botões e lâmpadas de comando  
-
----
-
-## 🧱 Arquitetura do Sistema  
+- Botões e lâmpadas de comando
 
