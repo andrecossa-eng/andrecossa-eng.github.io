@@ -8,17 +8,14 @@ Construir um robô sumô com:
 - Controle via Bluetooth  
 - Dois drivers BTS7960  
 - Motores de vidro elétrico  
-- Estratégia de combate  
-- Leitura de sensores ultra-sônicos  
+- Conversor DC/DC
+- Bateria 5Ah
 
 ---
 
 ## 🛠 Tecnologias  
 - ESP32  
 - Bluetooth Serial  
-- BTS7960  
-- Motores DC  
-- Sensores HC-SR04  
 - PWM  
 
 ---
@@ -163,6 +160,7 @@ digitalWrite(A_LPWM, LOW);
 digitalWrite(B_RPWM, LOW);
 digitalWrite(B_LPWM, LOW);
 ]
+
 
 💥 Resultados
 
