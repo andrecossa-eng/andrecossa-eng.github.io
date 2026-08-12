@@ -4,15 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>André Cossa | Automação & Controle</title>
+    <meta name="description" content="Portfólio de André Cossa — Engenharia de Controle e Automação. CLP, SCADA, IoT e o projeto ATENA." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <nav class="topnav">
+        <span class="brand">AC</span>
+        <div class="nav-links">
+            <a href="#about">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </div>
+    </nav>
+
     <header>
+        <p class="eyebrow">Engenharia de Controle e Automação</p>
         <h1>André Cossa</h1>
-        <p>Engenharia de Controle e Automação • Industrial Automation • PLC • SCADA • IoT</p>
+        <p class="subtitle">Automação Industrial • PLC • SCADA • IoT • IA aplicada a equipamentos</p>
+        <div class="header-actions">
+            <a href="#projects" class="btn btn-primary">Ver projetos</a>
+            <a href="#contact" class="btn btn-ghost">Contato</a>
+        </div>
     </header>
 
-    <section class="about">
+    <section id="about" class="about">
         <h2>Sobre mim</h2>
         <p>
             Sou estudante de Engenharia de Controle e Automação, com experiência prática em automação industrial,
@@ -21,24 +40,45 @@
         </p>
     </section>
 
-    <section class="skills">
+    <section id="skills" class="skills">
         <h2>Skills Técnicas</h2>
-        <ul>
-            <li>Programação de CLP (Siemens S7-1200, Altus XP340)</li>
-            <li>TIA Portal • Ladder • MasterTool IEC</li>
-            <li>Supervisório (BluePlant, IHM, SCADA)</li>
-            <li>Automação industrial • Instrumentação • Sensores</li>
-            <li>MQTT • ESP32 • Protocolos industriais</li>
-            <li>SimScale • Gestão térmica • CAD/CAE</li>
-            <li>Eletricista industrial • Comandos elétricos</li>
-        </ul>
+        <div class="tag-list">
+            <span class="tag">CLP Siemens S7-1200</span>
+            <span class="tag">CLP Altus XP340</span>
+            <span class="tag">TIA Portal</span>
+            <span class="tag">Ladder</span>
+            <span class="tag">MasterTool IEC</span>
+            <span class="tag">Supervisório / SCADA</span>
+            <span class="tag">BluePlant / IHM</span>
+            <span class="tag">Instrumentação Industrial</span>
+            <span class="tag">MQTT</span>
+            <span class="tag">ESP32</span>
+            <span class="tag">Protocolos Industriais</span>
+            <span class="tag">SimScale</span>
+            <span class="tag">CAD / CAE</span>
+            <span class="tag">Comandos Elétricos</span>
+        </div>
     </section>
 
-    <section class="projects">
+    <section id="projects" class="projects">
         <h2>Projetos</h2>
         <p>Clique para ver cada projeto:</p>
 
         <div class="project-list">
+
+            <a href="https://github.com/andrecossa-eng/atena-updates" target="_blank" class="project-card featured">
+                <span class="featured-badge">Projeto em destaque</span>
+                <h3>A.T.E.N.A. — Gêmeo digital cognitivo</h3>
+                <p>Assistente de voz e IA (Gemini) que lê telemetria MQTT, mostra um viewer 3D do equipamento e
+                   age sobre ele com confirmação do operador. Projeto de TCC em desenvolvimento ativo.</p>
+                <div class="card-tags">
+                    <span>Python</span>
+                    <span>IA / Gemini</span>
+                    <span>MQTT</span>
+                    <span>Viewer 3D</span>
+                    <span>Voz</span>
+                </div>
+            </a>
 
             <a href="projects/clp-siemens/" class="project-card">
                 <h3>CLP Siemens – TIA Portal & Ladder</h3>
@@ -57,15 +97,17 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <h2>Contato</h2>
-        <p>Email: <b>andre.cossa@outlook.com.br</b></p>
+        <p>Email: <a href="mailto:andre.cossa@outlook.com.br">andre.cossa@outlook.com.br</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/andré-cossa-06830b324" target="_blank">André Cossa</a></p>
         <p>GitHub: <a href="https://github.com/andrecossa-eng" target="_blank">André Cossa</a></p>
     </section>
 
     <footer>
-        <p>© 2025 André Cossa – Portfolio</p>
+        <p>© 2026 André Cossa – Portfolio</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
