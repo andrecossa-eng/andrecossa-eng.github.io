@@ -4,21 +4,21 @@
 Projeto de TCC: um aplicativo desktop que dá "voz" a um equipamento industrial,
 combinando:
 - Assistente de voz e chat com IA (Gemini), respondendo ao nome **"ATENA"**
-- Telemetria em tempo real via **MQTT**
+- Telemetria em tempo real via **MQTT ou Modbus TCP**
 - Viewer 3D do equipamento
 - Ações reais no equipamento, **só com confirmação explícita do operador**
 - Alertas proativos quando um sensor sai da faixa configurada
 
 O equipamento usado como referência é um cilindro pneumático com sensores M12, mas a
 aplicação é configurável por projeto — serve qualquer equipamento com sensores/
-atuadores MQTT.
+atuadores MQTT ou Modbus TCP.
 
 ---
 
 ## 🛠 Tecnologias
 - Python / CustomTkinter
 - Google Gemini (function calling)
-- paho-mqtt
+- paho-mqtt / pymodbus
 - PyVista / VTK (viewer 3D)
 - edge-tts + reconhecimento de voz (wake word)
 
